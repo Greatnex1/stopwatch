@@ -1,0 +1,44 @@
+:root{
+--basecolor:grey;
+}
+
+body{
+    background: var(--basecolor);
+    height: 100%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.wrapper{
+    width: 800px;
+    margin: 30px auto;
+    color: white;
+    text-align: center;
+}
+h1,h2,h3{
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 100;
+    font-size: 2.6em;
+    text-transform: uppercase;
+}
+#seconds, #tens{
+    font-size: 2em;
+}
+
+button{
+    background-color: var(--basecolor);
+    border: solid 1px white;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    font-size: 1.2em;
+    padding: 18px 10px;
+    width: 180px;
+    margin: 10px;
+    outline: none;
+
+}
+a:hover{
+    background: white;
+    border: solid   1px white;
+    color: var(--basecolor);
+}
