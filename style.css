@@ -9,13 +9,18 @@ body{
 }
 
 .wrapper{
+    
+
     width: 800px;
     margin: 30px auto;
     color: white;
     text-align: center;
+   
 }
-h1,h2,h3{
-    font-family: 'Roboto', 'sans-serif';
+h1{
+    font-family:  'Inter Tight', sans-serif;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 100;
     font-size: 2.6em;
     text-transform: uppercase;
@@ -35,10 +40,21 @@ button{
     width: 180px;
     margin: 10px;
     outline: none;
+    border-radius: 50px;
+    background:green;
+}
+ #button-start:hover{
+   background-color:var(--basecolor);
 
 }
-a:hover{
-    background: white;
-    border: solid   1px white;
-    color: var(--basecolor);
-}
+    
+#button-stop:hover{
+    background-color:var(--basecolor);
+ 
+ }
+
+     
+#button-reset:hover{
+    background-color:var(--basecolor);
+ 
+ }
